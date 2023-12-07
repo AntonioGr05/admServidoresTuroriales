@@ -5,4 +5,3 @@ export default function handler(req, res) {
     const content = fs.readFileSync(file, 'utf8')
     res.send(content)
   }
-  
