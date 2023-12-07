@@ -7,7 +7,7 @@ export default function Navbar() {
         <Link href={"/"} className='text-white roboto font-roboto'><p>Administracion de Servidores</p></Link>
       </div>
       <ul className='flex w-2/5 justify-between' >
-        <Link href={"/"} className='flex  bg-[#73675D] h-10 w-20 rounded-md content-center justify-center font-roboto hover:bg-[#D9D6D0]'>
+        <Link href={"/dns"} className='flex  bg-[#73675D] h-10 w-20 rounded-md content-center justify-center font-roboto hover:bg-[#D9D6D0]'>
           <p className='mt-1 text-white hover:text-black'>DNS</p>
         </Link>
         <li className='flex bg-[#73675D] h-10 w-20 rounded-md content-center justify-center hover:bg-[#D9D6D0]'>
