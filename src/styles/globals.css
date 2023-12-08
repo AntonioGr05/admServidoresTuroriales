@@ -14,6 +14,14 @@ body {
     top: 0;
     width: 100%;
     margin: auto;
-    
     margin-bottom: 1rem;
+}
+
+.fixedbottom {
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1rem;
+    justify-content: center;
 }

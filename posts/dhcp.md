@@ -1,4 +1,13 @@
-# Instalacion de DHCP en Ubuntu Server 
+# Instalacion de DHCP en Ubuntu Server
+
+## Actualizacion del sistema
+
+Primera mente debemos actualizar el sistema operativo con los siguientes comandos:
+
+```bash
+    sudo apt update
+    sudo apt upgrade
+```
 
 El primer paso para hacer la configuracion del dhcp es comenzando a colocar una ip estaica en nuestro servidor para que no cambie la ip cada vez que se reinicie el servidor y ocacione problemas en la red.
 

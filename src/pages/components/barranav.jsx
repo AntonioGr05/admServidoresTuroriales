@@ -10,21 +10,18 @@ export default function Navbar() {
         <Link href={"/dns"} className='flex  bg-[#73675D] h-10 w-20 rounded-md content-center justify-center font-roboto hover:bg-[#D9D6D0]'>
           <p className='mt-1 text-white hover:text-black'>DNS</p>
         </Link>
-        <li className='flex bg-[#73675D] h-10 w-20 rounded-md content-center justify-center hover:bg-[#D9D6D0]'>
-          <Link href={"/dhcp"} className=' text-white mt-1 hover:text-black'>DHCP</Link>
-        </li>
-        <li className='flex bg-[#73675D] h-10 w-20 rounded-md content-center justify-center hover:bg-[#D9D6D0]'>
-          <Link href={"/"} className=' text-white mt-1 hover:text-black'>FTP</Link>
-        </li>
-        <li className='flex bg-[#73675D] h-10 w-20 rounded-md content-center justify-center hover:bg-[#D9D6D0]'>
-          <Link href={"/"} className=' text-white mt-1 hover:text-black'>FTP</Link>
-        </li>
-        <li className='flex bg-[#73675D] h-10 w-20 rounded-md content-center justify-center hover:bg-[#D9D6D0]'>
-          <Link href={"/"} className=' text-white mt-1 hover:text-black'>FTP</Link>
-        </li>
-        <li className='flex bg-[#73675D] h-10 w-20 rounded-md content-center justify-center hover:bg-[#D9D6D0]'>
-          <Link href={"/"} className=' text-white mt-1 hover:text-black'>FTP</Link>
-        </li>
+        <Link href={"/dhcp"} className='flex  bg-[#73675D] h-10 w-20 rounded-md content-center justify-center font-roboto hover:bg-[#D9D6D0]'>
+          <p className='mt-1 text-white hover:text-black'>DHCP</p>
+        </Link>
+        <Link href={"/ftp"} className='flex  bg-[#73675D] h-10 w-20 rounded-md content-center justify-center font-roboto hover:bg-[#D9D6D0]'>
+          <p className='mt-1 text-white hover:text-black'>FTP</p>
+        </Link>
+        <Link href={"/correo"} className='flex  bg-[#73675D] h-10 w-28 rounded-md content-center justify-center font-roboto hover:bg-[#D9D6D0]'>
+          <p className='mt-1 text-white hover:text-black'>CORREO</p>
+        </Link>
+        <Link href={"/http"} className='flex  bg-[#73675D] h-10 w-20 rounded-md content-center justify-center font-roboto hover:bg-[#D9D6D0]'>
+          <p className='mt-1 text-white hover:text-black'>HTTP</p>
+        </Link>
       </ul>
     </nav>
   )

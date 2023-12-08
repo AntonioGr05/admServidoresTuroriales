@@ -23,7 +23,7 @@ export default function MarkdownToHtml(){
 
         <NAVBAR/>
         <div>
-          <h1 className='text-6xl font-bold font-mono text-center mt-10'>DNS</h1>
+          <h1 className='text-6xl font-bold font-mono text-center mt-20 mb-5'>DNS </h1>
         </div>
         <div className="prose prose-slate m-auto w-2/4 mt-10">
         {/* < ReactMarkdown ReactMarkdown className="markdown__preview w-full">{markdown}</ReactMarkdown> */}

@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <NAVBAR/>
-      <main className=' w-full h-full flex mb-3'>
+      <main className=' w-full h-full flex mb-3 mt-20'>
         <div className='flex justify-center m-auto mt-10 flex-col'>
           <div className='m-auto'>
             <h1 className='text-6xl font-bold font-mono'>Administracion De Servidores</h1>
