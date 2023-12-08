@@ -45,7 +45,6 @@ export default function MarkdownToHtml(){
 </blockquote>
 <pre><code class="language-bash">    sudo systemctl status bind9
 </code></pre>
-<p><img src="./img/bind9Status.png" alt="Bind9Status" title="Texto del título"></p>
 <blockquote>
 <p>En active (running) nos indica que el servicio esta corriendo correctamente.</p>
 </blockquote>
@@ -133,6 +132,7 @@ eql1   IN  A    192.168.1.50; IP del equipo 1
 <blockquote>
 <p>Si todo esta correcto ya tendremos nuestro DNS funcionando correctamente.</p>
 </blockquote>
+<h1>    Exitooooo</h1>
 <p>.</p>
 </body></html>
         ` }} />

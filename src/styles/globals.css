@@ -8,12 +8,12 @@ body {
   background-color: #D9D6D0;
 }
 
-.fixed {
+.fixedtop {
     display: flex;
     position: fixed;
-    bottom: 0;
+    top: 0;
     width: 100%;
     margin: auto;
-    justify-content: center;
+    
     margin-bottom: 1rem;
 }
